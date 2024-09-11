@@ -1,6 +1,5 @@
  .u-section-1 {
-  background-image: url("images/MAIN3.jpg");
-  background-position: 53.74% 50%;
+  background-image: none;
   min-height: 956px;
 }
 
@@ -15,15 +14,35 @@
   width: 80px;
   height: 76px;
   color: rgb(217, 217, 217) !important;
-  margin: 63px auto 60px;
+  margin: 63px auto 0;
   padding: 0;
 }
 
-@media (max-width: 1199px) {
-   .u-section-1 {
-    min-height: 1074px;
-  }
+.u-section-1 .u-text-2 {
+  font-weight: 700;
+  font-size: 0.75rem;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  width: 276px;
+  margin: 256px auto 0;
+}
 
+.u-section-1 .u-text-3 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  width: 275px;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  margin: 0 auto 60px;
+}
+
+@media (max-width: 1199px) {
   .u-section-1 .u-text-1 {
     width: auto;
     margin-top: 257px;
@@ -36,13 +55,13 @@
     height: 82px;
     margin-top: 69px;
   }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 398px;
+  }
 }
 
 @media (max-width: 991px) {
-   .u-section-1 {
-    min-height: 1001px;
-  }
-
   .u-section-1 .u-text-1 {
     margin-top: 294px;
   }
@@ -50,23 +69,32 @@
   .u-section-1 .u-icon-1 {
     height: 69px;
   }
+
+  .u-section-1 .u-text-2 {
+    margin-left: auto;
+  }
 }
 
 @media (max-width: 767px) {
-   .u-section-1 {
-    min-height: 751px;
-  }
-
   .u-section-1 .u-text-1 {
     margin-right: calc(((100% - 540px) / 2));
     margin-left: calc(((100% - 540px) / 2));
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 320px;
+    margin-right: 320px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-left: 320px;
+    margin-right: 320px;
   }
 }
 
 @media (max-width: 575px) {
    .u-section-1 {
-    background-position: 60.21% 0.59%;
-    min-height: 100vh;
+    min-height: 910px;
   }
 
   .u-section-1 .u-text-1 {
@@ -86,5 +114,18 @@
     --animation-custom_in-rotate: 180deg;
     --animation-custom_in-scale: 1;
     margin-top: 47px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 186px;
+    margin-top: 304px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .u-section-1 .u-text-3 {
+    width: 246px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }h5 {font-family: 'Macondo', cursive;} 
