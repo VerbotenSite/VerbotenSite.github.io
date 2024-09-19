@@ -26143,7 +26143,7 @@ section.u-color-1-light-2:before,
 li.active > .u-button-style.u-button-style.u-color-1-light-2,
 li.active > .u-button-style.u-button-style.u-color-1-light-2[class*="u-border-"] {
   color: #111111 !important;
-  background-color: #8db8e0 !important;
+  background-color: #f10e0e !important;
 }
 .u-hover-color-1-light-2:hover,
 .u-hover-color-1-light-2[class*="u-border-"]:hover,
@@ -43915,17 +43915,17 @@ a.u-link.u-text-hover-grey-90:hover {
 </style>
 
 <script>
--webkit-tap-highlight-color: rgba(241, 14, 14, 0);
+-webkit-tap-highlight-color: rgba(241, 197, 14, 0);
 -webkit-tap-highlight-color: transparent;
 </script>
 
   <!--custom head HTML-->
   <!-- Chrome, Firefox OS and Opera -->
-<meta name="theme-color" content="#f10e0e">
+<meta name="theme-color" content="#f1c50e">
 <!-- Windows Phone -->
-<meta name="msapplication-navbutton-color" content="#f10e0e">
+<meta name="msapplication-navbutton-color" content="#f1c50e">
 <!-- iOS Safari -->
-<meta name="apple-mobile-web-app-status-bar-style" content="#f10e0e">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f1c50e">
 
 <style>
 .js body {
