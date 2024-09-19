@@ -43905,27 +43905,27 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
  /*begin-variables custom-site-css*/<style type="text/css">
--webkit-tap-highlight-color: rgba(241, 197, 14, 0);
+-webkit-tap-highlight-color: rgba(241, 14, 14, 0);
 -webkit-tap-highlight-color: transparent;
 </style>
 
 <style>
--webkit-tap-highlight-color: rgba(241, 197, 14, 0);
+-webkit-tap-highlight-color: rgba(241, 14, 14, 0);
 -webkit-tap-highlight-color: transparent;
 </style>
 
 <script>
--webkit-tap-highlight-color: rgba(241, 197, 14, 0);
+-webkit-tap-highlight-color: rgba(241, 14, 14, 0);
 -webkit-tap-highlight-color: transparent;
 </script>
 
   <!--custom head HTML-->
   <!-- Chrome, Firefox OS and Opera -->
-<meta name="theme-color" content="#f1c50e">
+<meta name="theme-color" content="#f10e0e">
 <!-- Windows Phone -->
-<meta name="msapplication-navbutton-color" content="#f1c50e">
+<meta name="msapplication-navbutton-color" content="#f10e0e">
 <!-- iOS Safari -->
-<meta name="apple-mobile-web-app-status-bar-style" content="#f1c50e">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f10e0e">
 
 <style>
 .js body {
